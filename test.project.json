@@ -1,0 +1,33 @@
+{
+	"name": "test-tether",
+	"tree": {
+		"$className": "DataModel",
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"Test": {
+					"$path": "test/client"
+				}
+			}
+		},
+
+		"ReplicatedStorage": {
+
+			"Tether": {
+				"$path": "src"
+			},
+
+			"Module": {
+				"$path": "test/Shared"
+			}
+		},
+
+		"ServerScriptService": {
+			"Test": {
+				"$path": "test/Server"
+			}
+		}
+
+	}
+}
