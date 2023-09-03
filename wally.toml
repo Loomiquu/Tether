@@ -1,6 +1,6 @@
 [package]
 name = "loomiquu/tether"
-version = "0.1.0-dev.1"
+version = "0.1.0-dev.2"
 description = "Module based Service framework"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
@@ -9,6 +9,6 @@ license = "MIT"
 authors = ["Loomiquu"]
 
 exclude = ["**"]
-include = ["src/*", "default.project.json", "wally.lock", "wally.toml"]
+include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml"]
 
 [dependencies]
